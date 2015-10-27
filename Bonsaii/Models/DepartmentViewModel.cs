@@ -21,8 +21,5 @@ namespace Bonsaii.Models
 
         [Display(Name = "备注")]
         public string Remark { get; set; }
-
-        //public string RecordName { get; set; }
-        //public string RecordName { get; set; }
     }
 }
