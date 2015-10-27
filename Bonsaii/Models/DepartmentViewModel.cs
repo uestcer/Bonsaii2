@@ -22,12 +22,7 @@ namespace Bonsaii.Models
         [Display(Name = "备注")]
         public string Remark { get; set; }
 
-        [StringLength(50)]
-        [Display(Name = "字段名")]
-        public string RecordName { get; set; }
-
-        [StringLength(50)]
-        [Display(Name = "描述")]
-        public string Description { get; set; }
+        //public string RecordName { get; set; }
+        //public string RecordName { get; set; }
     }
 }

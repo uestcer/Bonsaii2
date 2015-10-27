@@ -12,14 +12,17 @@ namespace Bonsaii.Models
         [Key]
         public int Id { get; set; }
 
-      //  [Required]
         [StringLength(50)]
         [Display(Name = "字段名")]
         public string RecordName { get; set; }
+      
+        [StringLength(50)]
+        [Display(Name = "内容标识")]
+        public int ContextName { get; set; }
 
        // [Required]
         [StringLength(50)]
-        [Display(Name = "描述")]
-        public string Description { get; set; }
+        [Display(Name = "内容")]
+        public string Context { get; set; }
     }
 }
