@@ -295,6 +295,7 @@
     <Compile Include="Models\StaffSkillView.cs" />
     <Compile Include="Models\SystemDbContext.cs" />
     <Compile Include="Models\UserModels.cs" />
+    <Compile Include="Models\UserPasswordInfo.cs" />
     <Compile Include="Models\UserRole.cs" />
     <Compile Include="Models\UserViewModels.cs" />
     <Compile Include="Models\VerifyCode.cs" />
@@ -571,6 +572,9 @@
     <Content Include="Views\StaffSkill\Details.cshtml" />
     <Content Include="Views\StaffSkill\Edit.cshtml" />
     <Content Include="Views\StaffSkill\Index.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordApply.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordInfo.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordInfoError.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
